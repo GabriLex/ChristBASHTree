@@ -1,14 +1,15 @@
 # ChristBASHTree
 
-You know, a Christmas tree on Bash :)
+A festive Christmas tree created in Bash! 🎄✨
 
 ![Screenshot](./screenshot.png?raw=true)
 
-# Usage
+[![License](https://img.shields.io/badge/license-Do%20What%20You%20Want%20With%20It-blue.svg)](./LICENSE)
 
-Via cURL:
+## How to Use
 
-```
+### Via cURL:
+```bash
 # English version
 curl https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-EN.sh | bash
 
@@ -16,9 +17,8 @@ curl https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-E
 curl https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-ES.sh | bash
 ```
 
-Via Wget:
-
-```
+### Via Wget:
+```bash
 # English version
 wget -qO- https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-EN.sh | bash
 
@@ -26,43 +26,35 @@ wget -qO- https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/t
 wget -qO- https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-ES.sh | bash
 ```
 
-Docker:
-
-```
+### Using Docker:
+```bash
 docker pull sergiolepore/christbashtree:latest
 docker run -it sergiolepore/christbashtree:latest
 ```
 
-Git clone and execute:
-
-```
+### Using Git:
+```bash
 git clone https://github.com/sergiolepore/ChristBASHTree.git && cd ./ChristBASHTree && bash tree-EN.sh
 ```
 
-__Enjoy!__
+Enjoy the festive cheer! 🎅🎄
 
-# FAQ
+## FAQ
 
-## License?
+### What license is this project under?
+This project is licensed under the [Do What You Want With It](./LICENSE) license.
 
-[Do what you want with it](./LICENSE) license.
+### Will it work on my OS?
+It works on GNU/Linux and Unix-based systems only.
 
-## Will it run under _whatever-OS_?
-
-Only GNU/Linux and Unix flavors.
-
-## What OS are you using?
-
+### What OS are you using?
 Ubuntu 17.10.
 
-## What about your terminal emulator?
+### What terminal emulator do you use?
+I use [Tilix](https://gnunn1.github.io/tilix-web/).
 
-[Tilix](https://gnunn1.github.io/tilix-web/)
-
-## And your color palette?
-
-Custom, based on Atom's "One Dark" theme.
+### What's your color palette?
+It's a custom palette based on Atom's "One Dark" theme.
 
 ## Contributors
-
-[Here](https://github.com/sergiolepore/ChristBASHTree/graphs/contributors)
+Check out the [contributors list here](https://github.com/sergiolepore/ChristBASHTree/graphs/contributors).
